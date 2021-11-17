@@ -29,7 +29,7 @@ summarylength = 30
 [params.social]
     github = "TechnicalVegeta"
     twitter = "viv007s"
-    gravatar = "viveka.sheshadri@hotmail.com"
+    linkedin = "vivek-s-028b5117"
 
 [[menu.main]]
     name = "Posts"
