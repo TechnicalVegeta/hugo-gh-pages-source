@@ -1,7 +1,7 @@
 baseURL = 'https://blogs.decodegeek.co.in/'
 languageCode = 'en-us'
 
-title = 'Decoding..! Devlopment & Operations'
+title = 'Decoding Dev&Ops'
 theme = "hyde-hyde"
 
 paginate = 5
@@ -27,8 +27,9 @@ summarylength = 30
   NewsletterSignup = "https://tinyletter.com/DecodeGeek"
 
 [params.social]
-    github = "https://github.com/TechnicalVegeta"
-    twitter = "https://twitter.com/viv007s"
+    github = "TechnicalVegeta"
+    twitter = "viv007s"
+    gravatar = "viveka.sheshadri@hotmail.com"
 
 [[menu.main]]
     name = "Posts"
@@ -41,6 +42,7 @@ summarylength = 30
     weight = 99
     identifier = "Subscribe"
     url = "/Subscribe/"
+
 [[menu.main]]
     name = "About"
     weight = 1
