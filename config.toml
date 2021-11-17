@@ -13,14 +13,23 @@ summarylength = 30
 [permalinks]
   fixed = ":title"
 
+## Site settings
 [params]
   author = "Vivek Sheshadri"
   title = "Decode DevOps"
-  description = "Dev, Ops, & Code."
+  description = "Knowledge share on Dev, Ops, & Code."
   authorimage = "avatar.jpg"
   dateformat = "Jan 2, 2006"
   highlightjs = true
   highlightjsstyle = "github"
+
+# sidebar, copyright & license
+  #logoimage = "favicon.png"
+  copyright = "Vivek"
+  since = 2021
+  license = "CC BY-SA 4.0"
+  licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+  showBuiltWith = true
 
   # Table of contents
   toc = "hugo"
@@ -30,6 +39,7 @@ summarylength = 30
     github = "TechnicalVegeta"
     twitter = "viv007s"
     linkedin = "vivek-s-028b5117"
+    email =  "technical.blobs@decodegeek.co.in"
 
 [[menu.main]]
     name = "Posts"
