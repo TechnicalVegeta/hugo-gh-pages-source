@@ -52,7 +52,6 @@ summarylength = 30
     weight = 99
     identifier = "Subscribe"
     url = "/Subscribe/"
-
 [[menu.main]]
     name = "About"
     weight = 1
