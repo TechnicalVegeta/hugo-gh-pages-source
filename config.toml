@@ -1,7 +1,7 @@
 baseURL = 'https://blogs.decodegeek.co.in/'
 languageCode = 'en-us'
 
-title = 'Decoding Dev&Ops'
+title = 'Learning & Decoding Dev&Ops'
 theme = "hyde-hyde"
 
 paginate = 5
@@ -22,13 +22,18 @@ summarylength = 30
   dateformat = "Jan 2, 2006"
   highlightjs = true
   highlightjsstyle = "github"
+  relatedPosts = true
+# highlightjslanguages = ["swift", "objectivec"]
+  mainSections = ["posts"]
+# include_toc = false
+  GraphCommentId = "Decode-DevOps"
 
 # sidebar, copyright & license
   #logoimage = "favicon.png"
-  copyright = "Vivek"
+  copyright = "Vivek Sheshadri"
   since = 2021
-  license = "CC BY-SA 4.0"
-  licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+# license = "CC BY-SA 4.0"
+# licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
   showBuiltWith = false
 
   # Table of contents
@@ -40,6 +45,11 @@ summarylength = 30
     twitter = "viv007s"
     linkedin = "vivek-s-028b5117"
     email =  "technical.blobs@decodegeek.co.in"
+  # gravatar = "your.email@domain.com"
+
+[params.meta]
+    description = "Passing on my learnings about Programming on Go, Operations on Cloud, Microservice, and DevOps Automation, so you don't have to waste as many hours as I did trying to figure out how to make it work."
+    keywords = "Go, Powershell, Azure, Kubernetes, Docker, Rancher, k3d, Azure DevOps, k3s, Git, Terraform"
 
 [[menu.main]]
     name = "Posts"
