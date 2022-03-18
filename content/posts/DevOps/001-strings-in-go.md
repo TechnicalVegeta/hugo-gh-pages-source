@@ -1,6 +1,6 @@
 ---
 title: "Using String in Go"
-date: '2022-03-18T00:23:56+5:30'
+date: '2022-03-18'
 categories: ["GoLang"]
 highlight: false
 tags: ["programming", "go", "strings", "golang"]
