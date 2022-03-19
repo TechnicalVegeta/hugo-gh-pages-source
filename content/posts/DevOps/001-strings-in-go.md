@@ -117,5 +117,4 @@ Outputs: [97 32 115 116 114 105 110 103]
 var str string
 str = string(byt)
 ```
-
 Hope these tips help you out in writing more efficient Go, I will post more topics, tricks and tips on Go in my next post.
