@@ -117,4 +117,10 @@ Outputs: [97 32 115 116 114 105 110 103]
 var str string
 str = string(byt)
 ```
+### complete code 
+I have created complete code examples mentioned above in the go play groud where you can refer and play oround for better learning and also i have placed the same in the github gist.
+
+1. [Go playground - strings](https://go.dev/play/p/tXOM1chPIpP)
+2. [github gist - strings](https://gist.github.com/TechnicalVegeta/12a125d827c829d0fd5a186770663bee)
+
 Hope these tips help you out in writing more efficient Go, I will post more topics, tricks and tips on Go in my next post.
