@@ -27,8 +27,6 @@ summarylength = 30
   mainSections = ["posts"]
   include_toc = true
   GraphCommentId = "Decode-DevOps"
-# Google tag manager
-  google_tag_manager = "GTM-WW4RCCK"
 
 # sidebar, copyright & license
   #logoimage = "favicon.png"
