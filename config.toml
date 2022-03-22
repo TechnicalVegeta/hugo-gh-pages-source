@@ -6,7 +6,7 @@ theme = "hyde-hyde"
 
 paginate = 5
 publishDir = "public"
-googleAnalytics = "UA-213179883-1"
+googleAnalytics = "UA-223594308-1"
 enableEmoji = true
 summarylength = 30
 
