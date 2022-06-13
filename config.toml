@@ -1,7 +1,7 @@
 baseURL = 'https://blogs.decodegeek.co.in/'
 languageCode = 'en-us'
 
-title = 'Learning & Decoding Dev&Ops'
+title = 'Learning & Sharing Dev&Ops'
 theme = "hyde-hyde"
 
 paginate = 5
