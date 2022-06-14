@@ -1,5 +1,5 @@
 ---
-title: "Tips: Using Third-Paty Tools for betterment of Go"
+title: "Golang Tips2: Using Third-Paty Tools for betterment of Go"
 date: '2022-06-01'
 categories: ["GoLang"]
 image: "/static/002/Go_linter.png"

@@ -1,5 +1,5 @@
 ---
-title: "Tips: Using String better way in Go"
+title: "Golang Tips1: Using String better way in Go"
 date: '2022-03-18'
 categories: ["GoLang"]
 highlight: false
