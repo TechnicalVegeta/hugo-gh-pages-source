@@ -21,6 +21,7 @@ As a part of CI build, the pipeline will create a docker image inside the docker
 ### Methods which i explored
 
 #### Method 1 - Using docker.sock
+![docker.sock](/052_Docker/docker.sock.png)
 
 **What is docker.sock ?**  
 ``` /var/run/docker.sock ``` is the UNIX socket that Docker daemon is listening to. It's the main entry point for Docker API. It also can be TCP socket but by default for security reasons Docker defaults to use UNIX socket. Docker cli client uses this socket to execute docker commands by default. If you are on the same host where Docker daemon is running, you can use the /var/run/docker.sock to manage containers.  
@@ -36,8 +37,8 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock -ti <Imange-Name>
 
 This approch increases attack surface so you should be careful if you mount docker socket inside a container there are trusted codes running inside that container otherwise you can simply compromise your host that is running docker daemon, since Docker by default launches all containers as root.  
 
-#### Method 2 - using Docker image with dind
-
+#### Method 2 - Using Docker image with dind
+![DinD](/052_Docker/DinD.png)
 **What is DinD Image ?**
 The official docker image with ``` dind ``` tag is know as dind Image, used to run the docker container insinside docker container. This approch is used only to create a docker like environment creating docker image and to run the docker container indside container. If only building the docker image then it is recomended to use the first.
 
@@ -53,6 +54,7 @@ This approch requires that the Docker daemon container be configured as a “pri
 It may be a viable (though risky) solution in trusted environments, but it’s not a viable solution in environments where you don’t trust the workloads running inside the DinD container. For this reason, use of DinD is generally not recommended by Docker (even though it’s officially supported).
 
 #### Method 3 - Using Sysbox
+![Sysbox](/052_Docker/Sysbox.png)
 In the above two methods we can see the same kind of drawbacks, where we cannot use these approches in production environments because this significantly weakens isolation between the container and the underlying host, posing a strong security risk, but Sysbox is software that installs on the Linux host machine, integrates with Docker and run as System Container.
 
 **What is Sysbox ?**
