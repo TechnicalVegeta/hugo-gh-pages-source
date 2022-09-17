@@ -5,6 +5,6 @@ categories: ["kubernetes"]
 highlight: true
 tags: ["kubernetes", "containerisation", "k8s", "k3d", "k3s", "production k3d"]
 ---
-### Background 🧐
+### Background 📃
 
 k8s
